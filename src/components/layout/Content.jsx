@@ -8,6 +8,7 @@ import NotFound from "../../views/exemple/NotFound";
 import  HookUseRef from "../../views/exemple/useRef";
 import  HookUseMemo from "../../views/exemple/useMemo";
 import  HookUseCallback from "../../views/exemple/useCallback";
+import Context from '../../views/exemple/useContex'
 function Content() {
     return (
         <main className="Content">
@@ -27,10 +28,13 @@ function Content() {
             <Route path="/useMemo">
                 < HookUseMemo/>
             </Route>
-
+            <Route path="/useContex">
+                <Context />
+            </Route>
             <Route path="/useCallback">
                 < HookUseCallback/>
             </Route>
+           
             <Route exact path="/">
                 <Home />
             </Route>

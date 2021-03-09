@@ -13,7 +13,11 @@ function Menu() {
                     <li><Link to="/useCallback">useCallback</Link></li>
                     <li><Link to="/param/12">Param #1</Link></li>
                     <li><Link to="/param">Param #2</Link></li>
+                    <li>
+                    <Link to="/useContex">useContext()</Link>
+                </li>
                     <li><Link to="/naoExiste">Não Existe</Link></li>
+
         
                 </ul>
             </nav>
